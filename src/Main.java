@@ -20,7 +20,7 @@ public class Main {
         while(true){
             System.out.println(processes1);
 
-            System.out.println("Which process are you choosing : ");
+            System.out.print("Which process are you choosing : ");
             String process = sc.nextLine();
 
             if(process.equals("q")){
