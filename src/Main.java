@@ -58,7 +58,6 @@ public class Main {
                     sc.nextLine();
                     Triangel triangel1 = new Triangel("Triangel", a, b, c);
                     triangel1.calculateArea();
-
                 }
                 else if(shape.equals("3")){
                     System.out.println("What is the radius : ");
