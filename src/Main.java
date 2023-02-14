@@ -16,6 +16,11 @@ public class Main {
         +"3 : Circle\n"
         +"b : Back";
 
+        String process3 = "1 : Whole Circle's Area \n"
+        +"2 : Part of Circle's Area";
+
+        String unvalid = "Unvalid process...";
+
 
         while(true){
             System.out.println(processes1);
@@ -60,15 +65,36 @@ public class Main {
                     triangel1.calculateArea();
                 }
                 else if(shape.equals("3")){
-                    System.out.println("What is the radius : ");
-                    int input = sc.nextInt();
-                    sc.nextLine();
-                    Circle circle1 = new Circle("Circle", input);
-                    circle1.calculateArea();
+                    System.out.println(process3);
+                    System.out.print("Which process are you choosing : ");
+                    int newInput = sc.nextInt();
+
+                    if(newInput == 1){
+
+                        System.out.println("What is the radius : ");
+                        int input = sc.nextInt();
+                        sc.nextLine();
+                        Circle circle1 = new Circle("Circle", input);
+                        circle1.calculateArea();
+                    }
+                    else if(newInput == 2){
+
+                        System.out.println("What is the radius : ");
+                        int input = sc.nextInt();
+                        sc.nextLine();
+                        System.out.println("What is the degree : ");
+                        int degree = sc.nextInt();
+                        Circle circle1 = new Circle("Circle", input, degree);
+                        circle1.calculateAreaWithDegree();
+
+                    }
+                    else{
+                        System.out.println(unvalid);
+                    }
 
                 }
                 else{
-                    System.out.println("Unvalid process...");
+                    System.out.println(unvalid);
                 }
 
             }
@@ -111,11 +137,11 @@ public class Main {
 
                 }
                 else{
-                    System.out.println("Unvalid process...");
+                    System.out.println(unvalid);
                 }
             }
             else{
-                System.out.println("Unvalid process...");
+                System.out.println(unvalid);
             }
         }
         
