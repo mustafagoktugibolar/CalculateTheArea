@@ -21,7 +21,7 @@ public class Triangel extends Shape{
     }
 
     @Override
-    void calculatePeremeter() {
+    void calculatePerimeter() {
         System.out.println(getName() + "'s peremeter is " + (a + b + c));
         
     }
