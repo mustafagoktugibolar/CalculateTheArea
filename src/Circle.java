@@ -18,7 +18,7 @@ public class Circle extends Shape{
     }
 
     @Override
-    void calculatePeremeter() {
+    void calculatePerimeter() {
         System.out.println(getName() + "'s peremeter is  " + (2 * Math.PI * radius));
         
     }
