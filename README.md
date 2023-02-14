@@ -1,10 +1,10 @@
-## Calculate the Shape's Area and Peremeter
+# Calculate the Shape's Area and Peremeter
 
-# Shapes
+## Shapes
 - Circle
 - Square
 - Triangel
 
-# Functions
+## Functions
 - Calculating area
 - Calculating parameter
