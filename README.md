@@ -7,4 +7,4 @@
 
 ## Functions
 - Calculating area
-- Calculating parameter
+- Calculating perimeter
