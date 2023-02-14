@@ -7,7 +7,7 @@ public class Main {
 
         String processes1 = "Processes...\n"
         +"1 : Find Area\n"
-        +"2 : Find Peremeter\n"
+        +"2 : Find Perimeter\n"
         +"Exit : q";
 
         String processes2 = "Shapes...\n"
@@ -113,7 +113,7 @@ public class Main {
                     int input = sc.nextInt();
                     sc.nextLine();
                     Square square1 = new Square("Square", input);
-                    square1.calculatePeremeter();
+                    square1.calculatePerimeter();
 
                 }
                 else if(shape.equals("2")){
@@ -125,7 +125,7 @@ public class Main {
                     int c = sc.nextInt();
                     sc.nextLine();
                     Triangel triangel1 = new Triangel("Triangel", a, b, c);
-                    triangel1.calculatePeremeter();
+                    triangel1.calculatePerimeter();
 
                 }
                 else if(shape.equals("3")){
@@ -133,7 +133,7 @@ public class Main {
                     int input = sc.nextInt();
                     sc.nextLine();
                     Circle circle1 = new Circle("Circle", input);
-                    circle1.calculatePeremeter();
+                    circle1.calculatePerimeter();
 
                 }
                 else{
