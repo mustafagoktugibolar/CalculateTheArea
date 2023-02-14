@@ -13,7 +13,7 @@ public class Square extends Shape {
     }
 
     @Override
-    void calculatePeremeter() {
+    void calculatePerimeter() {
         System.out.println(getName() + "'s peremeter is " + (4 * side));
         
     }
