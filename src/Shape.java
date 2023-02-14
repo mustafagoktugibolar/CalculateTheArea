@@ -15,7 +15,7 @@ public abstract class Shape {
 
     abstract void calculateArea();
 
-    abstract void calculatePeremeter();
+    abstract void calculatePerimeter();
 
     
     
